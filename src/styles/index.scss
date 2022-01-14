@@ -1,0 +1,91 @@
+@import "button";
+body {
+  height: 100vh;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  font-size: 12px;
+}
+input{
+  outline: none;
+}
+html {
+  height: 100vh;
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+#app {
+  height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.clx:before,
+.clx:after {
+  content: "";
+  display: table;
+}
+.clx:after {
+  clear: both;
+}
+.clx {
+  *zoom: 1;
+}
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+button{
+  border: none;
+  cursor: pointer;
+}
+.m20{
+  margin: 20px 0;
+}
+.block{
+  display: block;
+}
